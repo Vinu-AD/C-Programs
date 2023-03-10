@@ -1,0 +1,17 @@
+// Program to check number of vowels present in a string
+#include <stdio.h>
+int main()
+{
+    char a[20];
+    int count=0;
+    printf("Enter a string to check no. of vowels present:");
+    scanf("%s",a);
+    for(int i=0;a[i]!='\0';++i)
+    {
+        if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u'||a[i]=='A'||a[i]=='E'||a[i]=='I'||a[i]=='O'||a[i]=='U'){
+        count++;
+        }
+    }
+    printf("Vowel[s] count: %d",count);
+    return 0;
+}
