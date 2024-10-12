@@ -1,3 +1,0 @@
-// new file named as newfile.txt
-
-city: Coimbatore
